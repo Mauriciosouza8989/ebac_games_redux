@@ -11,7 +11,7 @@ interface ExtendedRenderOptions extends Omit<RenderOptions, 'queries'> {
   store?: AppStore
 }
 
-export function renderizaComProvider(
+export function RenderizaComProvider(
   elemento: React.ReactElement,
   {
     preloadedState = {},
